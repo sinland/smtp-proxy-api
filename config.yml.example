@@ -1,0 +1,10 @@
+server:
+  port: 8000
+  api_key: api-key
+  jwt_secret: jwt-secret
+  bot_token: tg-bot-token
+smtp:
+  server: localhost
+  port: 25
+  username: smtp_user
+  password: smtp_password

@@ -28,6 +28,7 @@ func NewService(cfg Config) (*Service, error) {
 	return svc, nil
 }
 
+// Start call to start processing updates
 func (s *Service) Start(ctx context.Context) {
 	s.bot.Start(ctx)
 }
